@@ -1,0 +1,68 @@
+body, html, head {
+    margin: 0;
+    padding: 0;
+  }
+
+  .underLineTitle {
+    border-bottom: 3px, solid, black;
+  }
+.inStock, .notInStock {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+  }
+  
+  .inStock {
+    background-color: white;
+    border: 1px, solid, grey;
+    border-radius: 5px;
+    margin: 0, 0, 5px, 0;
+    display: flex;
+  }
+  
+  .notInStock {
+    background-color: white;
+    border-radius: 5px;
+  }
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+  }
+h1 {
+    margin: 0, 100px, 20px, 100px;
+    font-size: 50px;
+  }
+p#Toggle {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px, 0, 10px, 10px;
+    width: 160px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.name{
+ width: 300px
+}
+.price{
+width: 300px;
+}
+p#Toggle:hover {
+    cursor: pointer;
+  }
+.darkMode {
+    background-color: #1C1C1C;
+}
+.darkMode h1 {
+    color: white;
+}
+.darkMode .inStock {
+    background-color: #404040;
+    color: white;
+}
+.darkMode p#Toggle {
+    border: 1px solid white;
+    color: white;
+}
